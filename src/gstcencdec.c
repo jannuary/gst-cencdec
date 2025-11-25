@@ -108,9 +108,7 @@ static GstStaticPadTemplate gst_cenc_decrypt_sink_template =
     GST_STATIC_PAD_TEMPLATE ("sink",
     GST_PAD_SINK,
     GST_PAD_ALWAYS,
-    GST_STATIC_CAPS
-    (
-     "application/x-cenc"
+    GST_STATIC_CAPS("application/x-cenc")
     );
 
 static GstStaticPadTemplate gst_cenc_decrypt_src_template =
