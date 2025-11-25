@@ -110,9 +110,7 @@ static GstStaticPadTemplate gst_cenc_decrypt_sink_template =
     GST_PAD_ALWAYS,
     GST_STATIC_CAPS
     (
-     "application/x-cenc, protection-system=(string)" CLEARKEY_PROTECTION_ID "; "
-     "application/x-cenc, protection-system=(string)" M_MPD_PROTECTION_ID "; "
-     "application/x-cenc, protection-system=(string)" M_PSSH_PROTECTION_ID)
+     "application/x-cenc"
     );
 
 static GstStaticPadTemplate gst_cenc_decrypt_src_template =
